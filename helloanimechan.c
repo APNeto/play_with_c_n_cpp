@@ -1,3 +1,6 @@
+// How to compile:
+// g++ -o anime helloanimechen.c `pkg-config --cflags --libs gtk4` -lcurl
+
 #include <gtk/gtk.h>
 #include <curl/curl.h>
 #include <string>
